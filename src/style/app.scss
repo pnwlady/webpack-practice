@@ -44,10 +44,9 @@ $screen-xl-min: 1200px;
     color: #FFC300;
 }
 
-.logoLg {
+.iconLg {
   margin: 0 auto;
-  margin-top: 9%;
-  max-width: 60%;
+  color: #00bbff;
   height: auto;
 }
 
@@ -97,7 +96,13 @@ p {
 }
 
 .bg-primary {
-  background-color: #1E83C3;
+    $green: #00fffa;
+    $blue: #006eff;
+    opac­ity­: ($green, 20%);
+    opac­ity­: ($blue, 10%);
+    background: linear-gradient($green, $blue);
+
+  // background-color: #006eff;
 }
 
 .bg-dark {

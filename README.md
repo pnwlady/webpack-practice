@@ -5,5 +5,5 @@ Working from this tutorial to initialize a a simple webpack project, but then in
 https://scotch.io/tutorials/setting-up-webpack-for-any-project
 
 ### Color Scheme
- * blue: #3590F2
+ * blue: #3590F2, #006eff
  * logo yellow: #FFC300
