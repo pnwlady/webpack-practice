@@ -8,10 +8,16 @@ module.exports = {
         publicPath: '/' //public URL of the output directory when referenced in a browser
     },
     module: {
-        rules: [
-
-        ]
-    },
+      rules: [
+          {
+            test: /\.js$/,
+            use: 'babel-loader',
+            exclude: [
+              /node_modules/
+            ]
+          }
+      ]
+  },
     plugins: [ // array of plugins to apply to build chunk
         new HtmlWebpackPlugin({
             template: __dirname + "/src/public/index.html",
