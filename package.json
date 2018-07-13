@@ -1,0 +1,32 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "description": "working with config and loaders",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnwlady/webpack-practice.git"
+  },
+  "keywords": [
+    "webpack",
+    "typescript",
+    "css"
+  ],
+  "author": "heidi laursen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnwlady/webpack-practice/issues"
+  },
+  "homepage": "https://github.com/pnwlady/webpack-practice#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
