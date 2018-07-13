@@ -1,22 +1,17 @@
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 .bgimg {
-  background-image: url('../public/img/bluesky.jpg');
+  background-image: url('/../public/img/bluesky.jpg');
   background-position: center center;
   background-size: cover;
   height: 100%;
 }
 .bgimg2 {
-  background-image: url('../public/img/ferry.jpg');
+  background-image: url('/../public/img/ferry.jpg');
   background-position: center center;
   background-size: cover;
   height: 100%;
 }
 .bgimg3 {
-  background-image: url('../public/img/landlg.JPG');
+  background-image: url('/../public/img/landlg.JPG');
   background-position: center center;
   background-size: cover;
   height: 100%;
