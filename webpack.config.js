@@ -15,7 +15,11 @@ module.exports = {
             exclude: [
               /node_modules/
             ]
-          }
+        },
+        {
+              test: /\.html/,
+              loader: 'raw-loader'
+        }
       ]
   },
     plugins: [ // array of plugins to apply to build chunk
