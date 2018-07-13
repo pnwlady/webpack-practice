@@ -41,7 +41,7 @@ $screen-xl-min: 1200px;
    }
 }
 .yellow {
-    text-decoration-color: #FFC300;
+    color: #FFC300;
 }
 
 .logoLg {
@@ -53,8 +53,8 @@ $screen-xl-min: 1200px;
 
 .logoSm {
   margin: 0 auto;
-  margin-top: 9%;
-  margin-bottom: 9%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   max-width: 30%;
   height: auto;
 }
@@ -64,6 +64,9 @@ html, body {
   width: 100%;
   text-align: center;
   font-family: 'GothamBoldRegular', sans-serif;
+}
+a {
+    color: black;
 }
 
 h1 {
@@ -117,65 +120,6 @@ aside {
   padding: 50px 0;
 }
 
-.no-padding {
-  padding: 0;
-}
-
-.navbar-default {
-  background-color: #FFC300;
-  opacity: .90;
-  border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'GothamBoldRegular', sans-serif;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-  .navbar-header {
-    .navbar-brand {
-      color: #1E83C3;
-      font-family: 'GothamBoldRegular', sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      &:hover, &:focus {
-        color: #176597;
-      }
-    }
-    .navbar-toggle {
-      font-weight: 700;
-      font-size: 14px;
-      color: #222222;
-      text-transform: uppercase;
-    }
-  }
-  .nav > li {
-    > a {
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 14px;
-      color: #222222;
-      &:focus {
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 14px;
-        color: #222222;
-      }
-      &:hover, &:focus:hover {
-        color: #1E83C3;
-      }
-    }
-    &.active > a {
-      color: #1E83C3 !important;
-      background-color: transparent;
-      &:focus {
-        color: #1E83C3 !important;
-        background-color: transparent;
-      }
-      &:hover, &:focus:hover {
-        background-color: transparent;
-      }
-    }
-  }
-}
-
 .center-block {
   margin-left: auto;
   margin-right: auto;
@@ -193,7 +137,6 @@ aside {
   float: none;
   padding: 10px;
 }
-
 
 .padding1 {
   text-align: center;
