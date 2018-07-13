@@ -4,7 +4,8 @@
   "description": "working with config and loaders",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "test",
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
   },
   "repository": {
     "type": "git",
